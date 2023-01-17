@@ -10,6 +10,14 @@
 
 ## 📝 Descrição e funcionalidades 📚
 
+- **Projeto DevLinks** (Links de projetos)
+
+  (X) Em desenvolvimento
+
+[Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/devLinks/)
+
+</br>
+
 - **Projeto Music Player**
 
   (X) Em desenvolvimento
@@ -18,8 +26,8 @@
 
 </br>
 
-- **Projeto DevLinks** (Links importantes)
+- **Projeto Card NLW Copa 2022**
 
-  (X) Em desenvolvimento
+  (X) Concluído
 
-[Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/devLinks/)
+[Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/nlwCopa2022/)
