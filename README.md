@@ -4,7 +4,9 @@
 
 ![HTML5](https://img.shields.io/badge/-HTML-red)
 ![CSS](https://img.shields.io/badge/-CSS-blue)
+ e alguns ... :) 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
+  :)
 
 </br>
 
@@ -15,6 +17,14 @@
   (X) Concluído
 
 [Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/devLinks/)
+
+</br>
+
+- **Formulário básico, utilizando input do tipo Radio e do tipo Checkbox**
+
+  (X) Concluído
+
+[Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/inputRadioCheckbox/)
 
 </br>
 

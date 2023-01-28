@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&amp;family=Poppins:wght@400;500&amp;display=swap" rel="stylesheet">
+
+    <title>Treinando - Formulário com input</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+
+    <form action="">
+
+      <fieldset>
+        <legend>Choose a trial plan</legend>
+
+        <div class="radio-wrapper">
+          <div>
+            <input type="radio" name="plan" id="plan1">
+            <label for="plan1">Standard</label>
+          </div>
+
+          <p>
+            5 TB of space lorem ipsum dolor sit amet consectetur.
+          </p>
+        </div>
+
+        <div class="radio-wrapper">
+          <div>
+            <input type="radio" name="plan" id="plan2">
+            <label for="plan2">Advanced</label>
+          </div>
+
+          <p>
+            As much space as you lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+
+        <div class="checkbox-wrapper">
+          <input type="checkbox" name="terms" id="terms" checked="">
+          <label for="terms">I agren with <a href="#">terms and conditions.</a></label>
+        </div>
+
+        <div class="checkbox-wrapper">
+          <input type="checkbox" name="mailing" id="mailing">
+          <label for="mailing">I'd like to received mailling messages</label>
+        </div>
+
+        <button type="submit">Start free trial</button>
+        <small>No credit card needed</small>
+
+      </fieldset>
+
+    </form>
+
+
+  </body>
+
+</html>
