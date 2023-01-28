@@ -10,9 +10,9 @@
 
 ## 📝 Descrição e funcionalidades 📚
 
-- **Projeto DevLinks** (Links de projetos)
+- **Projeto DevLinks**
 
-  (X) Em desenvolvimento
+  (X) Concluído
 
 [Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/devLinks/)
 
