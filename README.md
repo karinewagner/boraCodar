@@ -12,6 +12,14 @@
 
 ## 📝 Descrição e funcionalidades 📚
 
+- **Projeto aplicando filtro de pesquisa em lista com JavaScript**
+
+  (X) Concluído
+
+[Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/basicSearchFilter/)
+
+</br>
+
 - **Projeto DevLinks**
 
   (X) Concluído
