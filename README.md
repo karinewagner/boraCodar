@@ -24,7 +24,7 @@
 
   (X) Concluído
 
-[Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/devLinks/)
+[Clique aqui para visualizaçäo prévia da aplicaçäo!](https://external.ink?to=/karinewagner.github.io/boraCodar/devLinks/)
 
 </br>
 
