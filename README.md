@@ -15,8 +15,8 @@
 - **Projeto aplicando filtro de pesquisa em lista com JavaScript**
 
   (X) Concluído
-
-<a href="https://karinewagner.github.io/boraCodar/basicSearchFilter/" target="_blank">Clique aqui para visualizaçäo prévia da aplicaçäo!</a>
+  
+ [Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/basicSearchFilter/)
 
 </br>
 
