@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font: 62.5%;
+}
+
+:root {
+  --bg-app: #1a1924;
+
+  --font-on: #00b37e;
+  --font-duzy: orange;
+  --font-of: red;
+
+  --color-font-dark: rgb(212, 201, 201, 0.9);
+  --color-font-ligth: rgba(212, 195, 218, 0.2);
+}
+
+body {
+  background-color: var(--bg-app);
+  font-size: 1.6rem;
+  color: var(--color-font-dark);
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+.app {
+  padding: 2.4rem 3.2rem;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-info img {
+  width: 4.8rem;
+  height: 4.8rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-status .status::before {
+  content: '';
+  width: .8rem;
+  height: .8rem;
+  display: block;
+  border-radius: 50%;
+  background-color: var(--font-on);
+}
+
+.user-status .status {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  
+  margin-top: .4rem;
+  font-size: 1.2rem;
+  color: var(--font-on);
+}
+
+.last-seen {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.chat-of-messages {
+  margin-top: 3rem;
+  display: grid;
+  gap: 3rem;
+
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.chat-of-messages .message .message-body{
+  margin-top: 1rem;
+  padding: 1.4rem;
+  background-color: #07847e;  
+  border-radius: .8rem .8rem 0 .8rem;
+}
+
+/* Quando a classe tem dois nomes, no css não coloca espaço entre os nome */
+.chat-of-messages .message.own { 
+  margin-left: auto;
+  text-align: right;
+}
+
+.chat-of-messages .message:not(.own) {
+  width: 50vw;
+}
+
+.chat-of-messages .message:not(.own) .message-body{
+  background-color: #633bbc;
+  border-radius: 0 .8rem .8rem .8rem;
+}
+
