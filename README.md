@@ -20,9 +20,9 @@ e alguns ... :)
 
 </br>
 
-- **Projeto Chat Persolanizado**
+- **Projeto Chat Personalizado**
 
-  (X) Em desenvolvimento
+  (X) Concluíd
 
 [Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/customChat/)
 
