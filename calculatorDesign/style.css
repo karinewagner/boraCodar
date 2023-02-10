@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --bg-color: #D9AFD9;
+    --bg-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    --font-color-gray: #6B6B6B;
+    --font-color-white: #EBEBEB;
+}
+
+.dark {
+    --bg-color: #3a303a;
+    --bg-image: linear-gradient(0deg, #3a303a 0%, #465e62 100%);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg-color);
+    background-image: var(--bg-image);
+
+    display: grid;
+    place-content: center;
+}
+
+body * {
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: -0.02em;
+}
+
+/* Theme Change */
+.switch {
+    margin: 20px auto;
+  
+    position: relative;
+    width: 64px;
+  }
+  
+.switch button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+  
+    background-color: #2D2A37;
+  
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    
+    animation: slide-out 0.2s;
+}
+  
+.dark .switch button {
+    animation: slide-in 0.2s forwards;
+}
+  
+.switch span {
+    display: block;
+    width: 64px;
+    height: 24px;
+  
+    background: #474255;
+    border-radius: 9999px;
+    backdrop-filter: blur(4px);
+    --webkit-backdrop-filter: blur(4px);
+
+    box-shadow: 
+        0px 4px 4px rgba(0, 0, 0, 0.25), 
+        0px 188px 52px rgba(0, 0, 0, 0.01), 
+        0px 120px 48px rgba(0, 0, 0, 0.04), 
+        0px 68px 41px rgba(0, 0, 0, 0.15), 
+        0px 30px 30px rgba(0, 0, 0, 0.26), 
+        0px 8px 17px rgba(0, 0, 0, 0.29), 
+        inset 0px 6px 8px rgba(255, 255, 255, 0.1), 
+        inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+}
+
+@keyframes slide-in {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+  
+@keyframes slide-out {
+    from {
+        left: 50%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+/* Calculator */
+#app {
+    background: #2D2A37;
+    border-radius: 48px;
+
+    box-shadow: 
+        0px 4px 4px rgba(0, 0, 0, 0.25), 
+        0px 188px 52px rgba(0, 0, 0, 0.01), 
+        0px 120px 48px rgba(0, 0, 0, 0.04), 
+        0px 68px 41px rgba(0, 0, 0, 0.15), 
+        0px 30px 30px rgba(0, 0, 0, 0.26), 
+        0px 8px 17px rgba(0, 0, 0, 0.29), 
+        inset 0px 6px 8px rgba(255, 255, 255, 0.1), 
+        inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+}
+
+.display {
+    margin-top: 52px;
+    padding-inline: 52px;
+}
+
+.last-calc {
+    text-align: right;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--font-color-gray);
+}
+
+.result {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result .ph-equals {
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--font-color-gray);
+}
+
+.result span {
+    font-size: 36px;
+    line-height: 140%;
+    color: var(--font-color-white);
+}
+
+.keyboard {
+    padding: 32px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+button {
+    width: 64px;
+    height: 64px;
+
+    border: none;
+    border-radius: 25px;
+
+    background: 
+        linear-gradient(
+            180deg, 
+            rgba(0, 0, 0, 0.05) 0%, 
+            rgba(255, 255, 255, 0.05) 100%),
+        #2D2A37;
+
+    box-shadow: 
+        0px 11px 7px rgba(0, 0, 0, 0.01), 
+        0px 7px 7px rgba(0, 0, 0, 0.04), 
+        0px 4px 6px rgba(0, 0, 0, 0.1), 
+        0px 2px 4px rgba(0, 0, 0, 0.26), 
+        0px 0px 2px rgba(0, 0, 0, 0.29), 
+        inset 0px 2px 3px rgba(255, 255, 255, 0.06);
+    
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--font-color-white);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-reset {
+    color: #975DFA;
+}
+
+.btn-operators {
+    background: linear-gradient(
+        180deg, 
+        rgba(0, 0, 0, 0.05) 0.01%, 
+        rgba(255, 255, 255, 0.05) 100%), 
+        #462878;
+}
+
+.btn-equalit {
+    background: linear-gradient(
+        180deg, 
+        rgba(0, 0, 0, 0.15) 0%, 
+        rgba(255, 255, 255, 0.05) 100%), 
+        #7F45E2;
+}
+
+footer {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 24px 0;
+    text-align: center;
+}
+  
+footer i {
+    color: red;
+}
+

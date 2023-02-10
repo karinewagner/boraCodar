@@ -15,8 +15,16 @@ e alguns ... :)
 - **Projeto aplicando filtro de pesquisa em lista com JavaScript**
 
   (X) Concluído
-  
- [Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/basicSearchFilter/)
+
+[Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/basicSearchFilter/)
+
+</br>
+
+- **Projeto Calculadora**
+
+  (X) Em desenvolvimento
+
+[Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/calculatorDesign/)
 
 </br>
 

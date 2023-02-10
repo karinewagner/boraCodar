@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="switch" onclick="toggleMode()">
+        <button>
+            <i class="ph-moon-stars-bold"></i>
+        </button>
+        <span></span>
+    </div>
+
+    <div id="app">
+
+        <div class="display">
+            <div class="last-calc">1 + 1</div>
+            <div class="result">
+                <i class="ph-equals"></i>
+                <span>2</span>
+            </div>
+        </div>
+
+        <div class="keyboard">
+            <button class="btn-reset">CE</button>
+            <button>C</button>
+            <button>
+                <i class="ph-percent-bold"></i>
+            </button>
+            <button class="btn-operators">
+                <i class="ph-divide-bold"></i>
+            </button>
+            <button >7</button>
+            <button >8</button>
+            <button >9</button>
+            <button class="btn-operators">
+                <i class="ph-x-bold"></i>
+            </button>
+            <button >4</button>
+            <button >5</button>
+            <button >6</button>
+            <button class="btn-operators">
+                <i class="ph-minus-bold"></i>
+            </button>
+            <button >1</button>
+            <button >2</button>
+            <button >3</button>
+            <button class="btn-operators">
+                <i class="ph-plus-bold"></i>
+            </button>
+            <button>
+                <i class="ph-plus-minus-bold"></i>
+            </button>
+            <button>0</button>
+            <button>,</button>
+            <button class="btn-equalit">
+                <i class="ph-equals-bold"></i>
+            </button>
+        </div>
+    </div>
+
+    <footer>
+        Feito com <i class="ph-heart-bold"></i> por Karine Wagner
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
