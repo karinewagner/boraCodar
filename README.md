@@ -28,9 +28,9 @@ e alguns ... :)
 
 </br>
 
-- **Projeto Chat Persolanizado**
+- **Projeto Chat Personalizado**
 
-  (X) Em desenvolvimento
+  (X) Concluído
 
 [Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/customChat/)
 
@@ -54,7 +54,7 @@ e alguns ... :)
 
 - **Projeto Music Player**
 
-  (X) Em desenvolvimento
+  (X) Concluído
 
 [Clique aqui para visualizaçäo prévia da aplicaçäo!](https://karinewagner.github.io/boraCodar/musicPlayer/)
 
